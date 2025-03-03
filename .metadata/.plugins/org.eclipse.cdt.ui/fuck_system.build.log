@@ -1,0 +1,21 @@
+12:08:31 **** Build of configuration Release for project fuck_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 10149 F:/Workplace/Vivado/fuck/fuck_wrapper/export/fuck_wrapper/fuck_wrapper.xpfm standalone_ps7_cortexa9_0 F:/Workplace/Vivado/fuck/fuck_system/Release/system.bif
+
+****** Software Commandline Tool (XSCT) v2024.2.0
+  **** SW Build 5239620 on Sun Nov 10 09:56:12 MST 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+Warning: XSCT is deprecated and will be removed in future releases.
+We recommend using the new Python command-line tool for project management and debugging:
+- Run "vitis -i" for interactive mode.
+- Run "vitis -s <script>" for script mode.
+sdcard_gen --xpfm F:/Workplace/Vivado/fuck/fuck_wrapper/export/fuck_wrapper/fuck_wrapper.xpfm --sys_config fuck_wrapper --bif F:/Workplace/Vivado/fuck/fuck_system/Release/system.bif --bitstream F:/Workplace/Vivado/fuck/fuck/_ide/bitstream/fuck_wrapper.bit --elf F:/Workplace/Vivado/fuck/fuck/Release/fuck.elf,ps7_cortexa9_0
+creating BOOT.BIN using F:/Workplace/Vivado/fuck/fuck/_ide/bitstream/fuck_wrapper.bit
+Running I:/Vitis/2024.2/bin/bootgen  -image F:/Workplace/Vivado/fuck/fuck_system/Release/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+12:08:37 Build Finished (took 6s.409ms)
+

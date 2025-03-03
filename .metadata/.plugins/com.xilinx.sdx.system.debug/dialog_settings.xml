@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="fuck_system-imgFile" value="F:/Workplace/Vivado/fuck/fuck_system/_ide/bootimage/BOOT.bin"/>
+	<item key="fuck_system-offSet" value=""/>
+	<item key="fuck_system-initFile" value="F:/Workplace/Vivado/fuck/fuck_wrapper/export/fuck_wrapper/sw/fuck_wrapper/boot/fsbl.elf"/>
+	<item key="fuck_system-flashType" value="qspi-x4-single"/>
+	<item key="fuck_system-flashDensity" value=""/>
+	<item key="fuck_system-verifyFlash" value="false"/>
+	<item key="fuck_system-blankCheck" value="false"/>
+	<item key="fuck_system-device" value="Auto Detect"/>
+	<item key="fuck_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="fuck_system"/>
+</section>

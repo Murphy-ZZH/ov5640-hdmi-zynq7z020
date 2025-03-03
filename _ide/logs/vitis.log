@@ -1,0 +1,11 @@
+12:06:35 INFO  : updated workspace path: 
+12:06:35 INFO  : cmd.exe, /C, I:\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python I:\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\repo.py -st  I:\Vitis\2024.2\data\embeddedsw && I:\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:06:39 INFO  : Successfully created repository data at C:\Users\14392\AppData\Local\Temp\rigel_lopper_1439211447407223428250744
+12:06:39 INFO  : cmd.exe, /C, I:\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\activate.bat && python I:\Vitis\2024.2\data\embeddedsw\scripts\pyesw\\get_template_data.py -d C:\Users\14392\AppData\Local\Temp\rigel_lopper_143921623141331747518206 -r C:\Users\14392\AppData\Local\Temp\rigel_lopper_1439211447407223428250744\.repo.yaml && I:\Vitis\2024.2\tps\win64\lopper-1.1.0\env\Scripts\deactivate.bat
+12:06:39 INFO  : Embedded Template List generated successfully
+12:06:44 INFO  : connection terminated
+12:07:23 INFO  : connection terminated
+12:07:23 INFO  : connection terminated
+12:07:23 INFO  : scheduling shutdown timer for 2 seconds ...
+12:07:25 INFO  : Terminating Vitis C++ Server
+12:07:25 INFO  : Vitis C++ Server terminated

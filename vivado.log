@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Jan 26 13:41:39 2025
+# Process ID         : 11456
+# Current directory  : F:/Workplace/Vivado/fuck
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent18180 F:\Workplace\Vivado\fuck\fuck.xpr
+# Log file           : F:/Workplace/Vivado/fuck/vivado.log
+# Journal file       : F:/Workplace/Vivado/fuck\vivado.jou
+# Running On         : Murphy-PC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i7-12650H
+# CPU Frequency      : 2688 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 16
+# Host memory        : 16898 MB
+# Swap memory        : 14501 MB
+# Total Virtual      : 31400 MB
+# Available Virtual  : 5588 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/Workplace/Vivado/fuck/fuck.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at I:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at I:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at I:/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/Workplace/Vivado/ov5640_hdmi/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'I:/Vivado/2024.2/data/ip'.
+INFO: [Project 1-5579] Found utility IPs instantiated in one or more block designs which have equivalent inline hdl with improved performance and reduced diskspace. It is recommended to migrate these utility IPs to inline hdl using the command upgrade_project -migrate_to_inline_hdl. The utility IPs may be deprecated in future releases. More information on inline hdl is available in UG994.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 1729.184 ; gain = 475.992
+open_bd_design {F:/Workplace/Vivado/fuck/fuck.srcs/sources_1/bd/fuck/fuck.bd}
+Reading block design file <F:/Workplace/Vivado/fuck/fuck.srcs/sources_1/bd/fuck/fuck.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:user:ddr3_hdmi_ov5640:1.0 - ddr3_hdmi_ov5640_0
+Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:5.0 - v_vid_in_axi4s_0
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.3 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.2 - v_tc_0
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding component instance block -- xilinx.com:user:hdmi_trans:1.0 - hdmi_trans_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_mem_intercon
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <fuck> from block design file <F:/Workplace/Vivado/fuck/fuck.srcs/sources_1/bd/fuck/fuck.bd>
+update_compile_order -fileset sources_1
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 26 14:29:02 2025...
